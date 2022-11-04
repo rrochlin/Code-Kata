@@ -1,0 +1,7 @@
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Are they the same\Are they the same\bin\Debug\Are they the same.exe.config
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Are they the same\Are they the same\bin\Debug\Are they the same.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Are they the same\Are they the same\bin\Debug\Are they the same.pdb
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Are they the same\Are they the same\obj\Debug\Are they the same.csproj.AssemblyReference.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Are they the same\Are they the same\obj\Debug\Are they the same.csproj.CoreCompileInputs.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Are they the same\Are they the same\obj\Debug\Are they the same.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Are they the same\Are they the same\obj\Debug\Are they the same.pdb

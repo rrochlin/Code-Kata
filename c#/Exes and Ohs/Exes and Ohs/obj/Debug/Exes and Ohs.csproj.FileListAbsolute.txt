@@ -1,0 +1,7 @@
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Exes and Ohs\Exes and Ohs\bin\Debug\Exes and Ohs.exe.config
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Exes and Ohs\Exes and Ohs\bin\Debug\Exes and Ohs.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Exes and Ohs\Exes and Ohs\bin\Debug\Exes and Ohs.pdb
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Exes and Ohs\Exes and Ohs\obj\Debug\Exes and Ohs.csproj.AssemblyReference.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Exes and Ohs\Exes and Ohs\obj\Debug\Exes and Ohs.csproj.CoreCompileInputs.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Exes and Ohs\Exes and Ohs\obj\Debug\Exes and Ohs.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Exes and Ohs\Exes and Ohs\obj\Debug\Exes and Ohs.pdb

@@ -1,0 +1,7 @@
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Sum of two lowest positive integers\Sum of two lowest positive integers\bin\Debug\Sum of two lowest positive integers.exe.config
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Sum of two lowest positive integers\Sum of two lowest positive integers\bin\Debug\Sum of two lowest positive integers.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Sum of two lowest positive integers\Sum of two lowest positive integers\bin\Debug\Sum of two lowest positive integers.pdb
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Sum of two lowest positive integers\Sum of two lowest positive integers\obj\Debug\Sum of two lowest positive integers.csproj.AssemblyReference.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Sum of two lowest positive integers\Sum of two lowest positive integers\obj\Debug\Sum of two lowest positive integers.csproj.CoreCompileInputs.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Sum of two lowest positive integers\Sum of two lowest positive integers\obj\Debug\Sum of two lowest positive integers.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Sum of two lowest positive integers\Sum of two lowest positive integers\obj\Debug\Sum of two lowest positive integers.pdb

@@ -1,0 +1,7 @@
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Duplicate Encoder\Duplicate Encoder\bin\Debug\Duplicate Encoder.exe.config
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Duplicate Encoder\Duplicate Encoder\bin\Debug\Duplicate Encoder.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Duplicate Encoder\Duplicate Encoder\bin\Debug\Duplicate Encoder.pdb
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Duplicate Encoder\Duplicate Encoder\obj\Debug\Duplicate Encoder.csproj.AssemblyReference.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Duplicate Encoder\Duplicate Encoder\obj\Debug\Duplicate Encoder.csproj.CoreCompileInputs.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Duplicate Encoder\Duplicate Encoder\obj\Debug\Duplicate Encoder.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Duplicate Encoder\Duplicate Encoder\obj\Debug\Duplicate Encoder.pdb

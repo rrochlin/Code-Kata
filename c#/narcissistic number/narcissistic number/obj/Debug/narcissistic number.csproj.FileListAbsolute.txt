@@ -1,0 +1,7 @@
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\narcissistic number\narcissistic number\bin\Debug\narcissistic number.exe.config
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\narcissistic number\narcissistic number\bin\Debug\narcissistic number.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\narcissistic number\narcissistic number\bin\Debug\narcissistic number.pdb
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\narcissistic number\narcissistic number\obj\Debug\narcissistic number.csproj.AssemblyReference.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\narcissistic number\narcissistic number\obj\Debug\narcissistic number.csproj.CoreCompileInputs.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\narcissistic number\narcissistic number\obj\Debug\narcissistic number.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\narcissistic number\narcissistic number\obj\Debug\narcissistic number.pdb

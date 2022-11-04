@@ -34,36 +34,52 @@ The goal is to come up with a function that can find two closest
 points for any arbitrary array of points, in a linearithmic time.
 
 Note: Don't use math.hypot, it's too slow...
+'''
+import time
 
-naive solution:
-
-def closest_pair(points):
+def brute_force(points):
+  if len(points) < 2:
+    return points[0],points[0],float("inf")
   distances = {}
   for start in points[:-1]:
     for end in points[points.index(start)+1:]:
       distances[((start[0]-end[0])**2+(start[1]-end[1])**2)**.5] = (start,end)
   shortest = min(distances.keys())
-  return distances[shortest]
-  O(n^2) time
-'''
-import random
+  return *distances[shortest], shortest
+
+
+def closest_split_pair(points, delta):
+  distances = {}
+  length = len(points)
+  mp = points[length//2]
+  sub_points = [p for p in points if (abs(p[0]-mp[0]) <= delta and abs(p[1]-mp[1]) <= delta)]
+  if len(sub_points) < 2:
+    return(None,None,float("inf"))
+  for start in sub_points[:-1]:
+    for end in sub_points[sub_points.index(start)+1:len(sub_points)]:
+      distances[((start[0]-end[0])**2+(start[1]-end[1])**2)**.5] = (start,end)
+  shortest = min(distances.keys())
+  return *distances[shortest], shortest
+
+
+def find_closest_pair(points):
+  length = len(points)
+  if length <= 3:
+    return brute_force(points)
+  left = points[length//2:]
+  right = points[:length//2]
+  p11, p12, d1 = find_closest_pair(left)
+  p21, p22, d2 = find_closest_pair(right)
+  if d1 == 0 or d2 == 0:
+    return (p11, p12, d1) if d1 <= d2 else (p21, p22, d2)
+  p1, p2, delta = ((p11, p12, d1) if d1 <= d2 else (p21, p22, d2))
+  p31, p32, d3 = closest_split_pair(points, delta)
+  return (p1, p2, delta) if delta <= d3 else (p31, p32, d3)
+
+
 def closest_pair(points):
-  distances = {}
-  n = len(points)
-  for i in range(n):
-    start, end = random.sample(points,2)
-    distances[((start[0]-end[0])**2+(start[1]-end[1])**2)**.5] = (start,end)
-  shortest = min(distances.keys())
-  distances = {}
-  for point in points:
-    neighbors = [p for p in points if (point[0]-shortest <= p[0] <= point[0]+shortest) and (point[1]-shortest <= p[1] <= point[0]+shortest)]
-    if len(neighbors) < 2:
-      continue
-    for start in neighbors[:-1]:
-      for end in neighbors[neighbors.index(start)+1:]:
-        distances[((start[0]-end[0])**2+(start[1]-end[1])**2)**.5] = (start,end)
-  shortest = min(distances.keys())
-  return distances[shortest]
+  p1, p2, d = find_closest_pair(sorted(points))
+  return (p1,p2)
 
 
 
@@ -81,7 +97,7 @@ print(closest_pair(points) == ((6, 3), (7, 4)))
 small_grid = list((a,b) for a in range(0,20) for b in range(0,20))
 med_grid = list((a,b) for a in range(0,50) for b in range(0,50))
 large_grid = list((a,b) for a in range(0,100) for b in range(0,100))
-import time
+
 start = time.perf_counter()
 print(closest_pair(small_grid))
 print(start-time.perf_counter())

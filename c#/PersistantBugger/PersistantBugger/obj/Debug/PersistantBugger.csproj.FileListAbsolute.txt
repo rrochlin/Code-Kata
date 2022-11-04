@@ -1,0 +1,7 @@
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\PersistantBugger\PersistantBugger\obj\Debug\PersistantBugger.csproj.AssemblyReference.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\PersistantBugger\PersistantBugger\obj\Debug\PersistantBugger.csproj.CoreCompileInputs.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\PersistantBugger\PersistantBugger\bin\Debug\PersistantBugger.exe.config
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\PersistantBugger\PersistantBugger\bin\Debug\PersistantBugger.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\PersistantBugger\PersistantBugger\bin\Debug\PersistantBugger.pdb
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\PersistantBugger\PersistantBugger\obj\Debug\PersistantBugger.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\PersistantBugger\PersistantBugger\obj\Debug\PersistantBugger.pdb

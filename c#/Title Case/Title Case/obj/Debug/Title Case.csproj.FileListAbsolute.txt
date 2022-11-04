@@ -1,0 +1,7 @@
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Title Case\Title Case\obj\Debug\Title Case.csproj.AssemblyReference.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Title Case\Title Case\obj\Debug\Title Case.csproj.CoreCompileInputs.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Title Case\Title Case\bin\Debug\Title Case.exe.config
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Title Case\Title Case\bin\Debug\Title Case.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Title Case\Title Case\bin\Debug\Title Case.pdb
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Title Case\Title Case\obj\Debug\Title Case.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Title Case\Title Case\obj\Debug\Title Case.pdb

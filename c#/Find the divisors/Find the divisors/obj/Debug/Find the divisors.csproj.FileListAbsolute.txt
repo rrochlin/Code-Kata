@@ -1,0 +1,6 @@
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Find the divisors\Find the divisors\obj\Debug\Find the divisors.csproj.CoreCompileInputs.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Find the divisors\Find the divisors\bin\Debug\Find the divisors.exe.config
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Find the divisors\Find the divisors\bin\Debug\Find the divisors.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Find the divisors\Find the divisors\bin\Debug\Find the divisors.pdb
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Find the divisors\Find the divisors\obj\Debug\Find the divisors.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Find the divisors\Find the divisors\obj\Debug\Find the divisors.pdb

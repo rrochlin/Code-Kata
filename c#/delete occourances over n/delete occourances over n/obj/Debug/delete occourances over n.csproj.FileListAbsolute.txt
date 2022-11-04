@@ -1,0 +1,7 @@
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\delete occourances over n\delete occourances over n\bin\Debug\delete occourances over n.exe.config
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\delete occourances over n\delete occourances over n\bin\Debug\delete occourances over n.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\delete occourances over n\delete occourances over n\bin\Debug\delete occourances over n.pdb
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\delete occourances over n\delete occourances over n\obj\Debug\delete occourances over n.csproj.AssemblyReference.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\delete occourances over n\delete occourances over n\obj\Debug\delete occourances over n.csproj.CoreCompileInputs.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\delete occourances over n\delete occourances over n\obj\Debug\delete occourances over n.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\delete occourances over n\delete occourances over n\obj\Debug\delete occourances over n.pdb

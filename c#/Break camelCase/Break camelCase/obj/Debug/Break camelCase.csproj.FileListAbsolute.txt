@@ -1,0 +1,7 @@
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Break camelCase\Break camelCase\obj\Debug\Break camelCase.csproj.CoreCompileInputs.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Break camelCase\Break camelCase\bin\Debug\Break camelCase.exe.config
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Break camelCase\Break camelCase\bin\Debug\Break camelCase.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Break camelCase\Break camelCase\bin\Debug\Break camelCase.pdb
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Break camelCase\Break camelCase\obj\Debug\Break camelCase.csproj.AssemblyReference.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Break camelCase\Break camelCase\obj\Debug\Break camelCase.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Break camelCase\Break camelCase\obj\Debug\Break camelCase.pdb
