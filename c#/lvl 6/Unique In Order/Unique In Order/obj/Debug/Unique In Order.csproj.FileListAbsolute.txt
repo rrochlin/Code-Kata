@@ -1,0 +1,8 @@
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Unique In Order\Unique In Order\bin\Debug\Unique In Order.exe.config
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Unique In Order\Unique In Order\bin\Debug\Unique In Order.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Unique In Order\Unique In Order\bin\Debug\Unique In Order.pdb
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Unique In Order\Unique In Order\obj\Debug\Unique In Order.csproj.AssemblyReference.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Unique In Order\Unique In Order\obj\Debug\Unique In Order.csproj.SuggestedBindingRedirects.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Unique In Order\Unique In Order\obj\Debug\Unique In Order.csproj.CoreCompileInputs.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Unique In Order\Unique In Order\obj\Debug\Unique In Order.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Unique In Order\Unique In Order\obj\Debug\Unique In Order.pdb

@@ -1,0 +1,7 @@
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Build a pile of Cubes\Build a pile of Cubes\bin\Debug\Build a pile of Cubes.exe.config
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Build a pile of Cubes\Build a pile of Cubes\bin\Debug\Build a pile of Cubes.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Build a pile of Cubes\Build a pile of Cubes\bin\Debug\Build a pile of Cubes.pdb
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Build a pile of Cubes\Build a pile of Cubes\obj\Debug\Build a pile of Cubes.csproj.AssemblyReference.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Build a pile of Cubes\Build a pile of Cubes\obj\Debug\Build a pile of Cubes.csproj.CoreCompileInputs.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Build a pile of Cubes\Build a pile of Cubes\obj\Debug\Build a pile of Cubes.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Build a pile of Cubes\Build a pile of Cubes\obj\Debug\Build a pile of Cubes.pdb

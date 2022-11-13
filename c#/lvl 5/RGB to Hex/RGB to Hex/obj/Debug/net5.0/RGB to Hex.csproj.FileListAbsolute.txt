@@ -1,0 +1,16 @@
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\RGB to Hex\RGB to Hex\bin\Debug\net5.0\RGB to Hex.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\RGB to Hex\RGB to Hex\bin\Debug\net5.0\RGB to Hex.deps.json
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\RGB to Hex\RGB to Hex\bin\Debug\net5.0\RGB to Hex.runtimeconfig.json
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\RGB to Hex\RGB to Hex\bin\Debug\net5.0\RGB to Hex.runtimeconfig.dev.json
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\RGB to Hex\RGB to Hex\bin\Debug\net5.0\RGB to Hex.dll
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\RGB to Hex\RGB to Hex\bin\Debug\net5.0\RGB to Hex.pdb
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\RGB to Hex\RGB to Hex\obj\Debug\net5.0\RGB to Hex.csproj.AssemblyReference.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\RGB to Hex\RGB to Hex\obj\Debug\net5.0\RGB to Hex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\RGB to Hex\RGB to Hex\obj\Debug\net5.0\RGB to Hex.AssemblyInfoInputs.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\RGB to Hex\RGB to Hex\obj\Debug\net5.0\RGB to Hex.AssemblyInfo.cs
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\RGB to Hex\RGB to Hex\obj\Debug\net5.0\RGB to Hex.csproj.CoreCompileInputs.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\RGB to Hex\RGB to Hex\obj\Debug\net5.0\RGB to Hex.dll
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\RGB to Hex\RGB to Hex\obj\Debug\net5.0\refint\RGB to Hex.dll
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\RGB to Hex\RGB to Hex\obj\Debug\net5.0\RGB to Hex.pdb
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\RGB to Hex\RGB to Hex\obj\Debug\net5.0\RGB to Hex.genruntimeconfig.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\RGB to Hex\RGB to Hex\obj\Debug\net5.0\ref\RGB to Hex.dll

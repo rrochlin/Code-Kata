@@ -1,0 +1,6 @@
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Greed is Good\Greed is Good\obj\Debug\Greed is Good.csproj.CoreCompileInputs.cache
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Greed is Good\Greed is Good\bin\Debug\Greed is Good.exe.config
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Greed is Good\Greed is Good\bin\Debug\Greed is Good.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Greed is Good\Greed is Good\bin\Debug\Greed is Good.pdb
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Greed is Good\Greed is Good\obj\Debug\Greed is Good.exe
+C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\Greed is Good\Greed is Good\obj\Debug\Greed is Good.pdb

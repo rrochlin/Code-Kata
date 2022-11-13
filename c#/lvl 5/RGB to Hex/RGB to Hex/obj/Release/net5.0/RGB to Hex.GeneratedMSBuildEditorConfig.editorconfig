@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RGB_to_Hex
+build_property.ProjectDir = C:\Users\RobertRochlin\Documents\software\Coding Files\codeWarsPractice\c#\lvl 5\RGB to Hex\RGB to Hex\
