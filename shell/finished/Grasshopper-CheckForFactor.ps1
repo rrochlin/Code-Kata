@@ -13,9 +13,13 @@
 
 # Note: base is a non-negative number, factor is a positive number.
 function CheckForFactor([int] $base, [int] $factor) {
-    If (-Not $base % $factor) {
+  $result = -not ($base % $factor)
+  Write-Host $result
+    If ($base % $factor) {
         return $false
     }
     return $true
   }
-$CheckForFactor(10,2)
+
+CheckForFactor 9 2
+CheckForFactor 10 2

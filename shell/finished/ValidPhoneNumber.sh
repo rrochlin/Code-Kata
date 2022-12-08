@@ -9,4 +9,14 @@
 # "(123) 456-7890"  => true
 # "(1111)555 2345"  => false
 # "(098) 123 4567"  => false
+# https://www.codewars.com/kata/525f47c79f2f25a4db000025/train/shell
 
+# spacing is VERY important
+
+
+pattern='\([0-9]{3}\)[[:space:]][0-9]{3}-[0-9]{4}'
+if [[ $1 =~ $pattern ]]; then
+    echo "True"
+else
+    echo "False"
+fi
