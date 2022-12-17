@@ -34,36 +34,38 @@ from pprint import pprint
 import numpy as np
 
 def right(spiral, n, size):
-    print(n,size)
-    print(0+(size-n)//2)
-    print((size-n)//4)
-    print(-(size-n)//2-1)
-    row = 0+(size-n)//2
-    start = (size-n)//4
-    end = -(size-n)//2-1
-    output = [1]*(n-n%2)
-    spiral[row][start:end] = output
+    row = (n//4)*2+1
+    col_start = 0 if n == 0 else (n//4)*2-1
+    col_end = -(n//4)*2-1
+    spiral[row][col_start:col_end] = [0]*(size+col_end-col_start)
     return spiral
 def down(spiral, n, size):
+    row_start = (n//4)*2 + 1
+    row_end = -(n//4)*2 - 1
+    col = -(n//4)*2 -2
+    for i in range(row_start,size+row_end):
+        spiral[i][col] = 0
     return spiral
 def left(spiral, n, size):
+    row = -((n//4)*2+2)
+    col_start = 1 if n == 2 else (n//4)*2+1
+    col_end = -(n//4)*2-1
+    spiral[row][col_start:col_end] = [0]*(size+col_end-col_start)
     return spiral
 def up(spiral, n, size):
+    col = 1 if n == 2 else (n//4)*2+1
+    row_end = -((n//4)*2+1)
+    row_start = ((n+1)//4)*2+1
+    for i in range(row_start,size+row_end):
+        spiral[i][col] = 0
     return spiral
+
 action = [right,down,left,up]
 
 def spiralize(size):
-    spiral = np.array([[0]*size for _ in range(size)])
-    # 1 - size
-    for i in range(1,size+1)[::-1]:
-        spiral = action[(size-i)%4](spiral, i, size)
-
-        # for _ in range(i + i%2):
-        #     spiral[0][i] = 1
-        #     spiral[i][size-1] = 1
-        #     spiral[size-1][size-1-i] = 1
-    # for i in range(size-1,1,-1):
-    #     spiral[i][0] = 1
+    spiral = np.array([[1]*size for _ in range(size)])
+    for i in range(0,size-1):
+        spiral = action[i%4](spiral, i, size)
     return spiral
 
 '''
@@ -78,4 +80,5 @@ spiral will have equal numbers of growth as size
 '''
 
 
-pprint(spiralize(7))
+pprint(spiralize(10))
+pprint(spiralize(5))

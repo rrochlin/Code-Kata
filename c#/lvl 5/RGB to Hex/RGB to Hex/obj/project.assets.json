@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RobertRochlin\\Documents\\software\\Coding Files\\codeWarsPractice\\c#\\RGB to Hex\\RGB to Hex\\RGB to Hex.csproj",
+      "projectUniqueName": "C:\\Users\\RobertRochlin\\Documents\\software\\Coding Files\\codeWarsPractice\\c#\\lvl 5\\RGB to Hex\\RGB to Hex\\RGB to Hex.csproj",
       "projectName": "RGB to Hex",
-      "projectPath": "C:\\Users\\RobertRochlin\\Documents\\software\\Coding Files\\codeWarsPractice\\c#\\RGB to Hex\\RGB to Hex\\RGB to Hex.csproj",
+      "projectPath": "C:\\Users\\RobertRochlin\\Documents\\software\\Coding Files\\codeWarsPractice\\c#\\lvl 5\\RGB to Hex\\RGB to Hex\\RGB to Hex.csproj",
       "packagesPath": "C:\\Users\\RobertRochlin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RobertRochlin\\Documents\\software\\Coding Files\\codeWarsPractice\\c#\\RGB to Hex\\RGB to Hex\\obj\\",
+      "outputPath": "C:\\Users\\RobertRochlin\\Documents\\software\\Coding Files\\codeWarsPractice\\c#\\lvl 5\\RGB to Hex\\RGB to Hex\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

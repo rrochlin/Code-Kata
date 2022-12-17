@@ -8,45 +8,44 @@ void addToBuffer(std::vector<uint16_t> &buffer, int index, int value_to_add){
     buffer[index]+= value_to_add;
     return;
 }
-
-void openBracketCase(std::vector<uint16_t> &buffer, const std::string &code, int data_pointer, int instruction_pointer){
+// had a bug here where i left out the & on instruction pointer, so the open bracket case couldn't actually activate.
+// better method for testing complicated things would be designing a test for each functionality.
+void openBracketCase(std::vector<uint16_t> &buffer, const std::string &code, int data_pointer, int &instruction_pointer){
     if (buffer[data_pointer] == 0){
-        int level = 1;
-        while(level > 0){
+        int nested = 1;
+        while(nested > 0){
             instruction_pointer++;
             switch(code[instruction_pointer]){
             case '[':
-                level++;
+                nested++;
                 break;
             case ']':
-                level--;
+                nested--;
                 break;
             default:
                 break;
             }
         }
-      instruction_pointer++;
     }
     return;
 }
 
 void closedBracketCase(std::vector<uint16_t> &buffer, const std::string &code, int data_pointer, int &instruction_pointer){
     if (buffer[data_pointer] != 0){
-        int level = -1;
-        while(level < 0){
+        int nested = -1;
+        while(nested < 0){
             instruction_pointer--;
             switch(code[instruction_pointer]){
             case '[':
-                level++;
+                nested++;
                 break;
             case ']':
-                level--;
+                nested--;
                 break;
             default:
                 break;
             }
         }
-      instruction_pointer--;
     }
     return;
 }
@@ -56,12 +55,7 @@ std::string brainLuck(const std::string &code, const std::string &input) {
     int data_pointer = 0;
     std::string output = "";
     auto it = input.begin();
-
-    // std::cout<<code<<"\n\n";
-    // std::string block_spaces = "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
-    // std::cout<<input<<block_spaces<<block_spaces<<block_spaces<<block_spaces;
     for (int instruction_pointer = 0; instruction_pointer < code.length(); instruction_pointer++){
-    //   std::cout<<code[instruction_pointer];
       switch (code[instruction_pointer])
         {
         case '>':
@@ -82,7 +76,6 @@ std::string brainLuck(const std::string &code, const std::string &input) {
 
         case '.':
             output.append(1,(char) buffer[data_pointer]);
-            std::cout<<"\noutput mutated: \n"<<output<<"\n";
             break;
 
         case ',':
