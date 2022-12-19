@@ -1,3 +1,6 @@
+#lifted this from https://www.geeksforgeeks.org/closest-pair-of-points-using-divide-and-conquer-algorithm/
+# its not very good imho, but it does work
+
 # A divide and conquer program in Python3 
 # to find the smallest distance from a 
 # given set of points.
@@ -154,8 +157,13 @@ P = [Point(*p) for p in points]
 #      Point(40, 50), Point(5, 1), 
 #      Point(12, 10), Point(3, 4)]
 n = len(P) 
-print("was it correct? :", closest(P, n) == answer)
+# print("was it correct? :", closest(P, n) == answer)
 print(answer)
-  
+
+
+incorrect = [Point(*p) for p in [(-0.17906489868271963, -0.6104551508896161), (-0.12926457188873836, -0.6312542625410136)] ] 
+correct = [Point(*p) for p in [(-0.2529079161330573, -0.5486590059143881), (-0.2512204993969637, -0.5546990773701307)]]
+print(dist(*incorrect))
+print(dist(*correct))
 # This code is contributed 
 # by Prateek Gupta (@prateekgupta10)

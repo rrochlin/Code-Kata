@@ -49,8 +49,7 @@ def brute_force(points):
 
 
 def closest_split_pair(points, delta):
-  distances = {}
-  min_val = delta
+  distances = dict({float("inf"):(None,None)})
   length = len(points)
   mp = points[length//2]
   sub_points = [p for p in points if abs(p[0]-mp[0]) < delta**.5]
