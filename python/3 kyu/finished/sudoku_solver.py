@@ -1,7 +1,14 @@
-# https://www.codewars.com/kata/55171d87236c880cea0004c6/train/python
+# https://www.codewars.com/kata/5296bc77afba8baa690002d7/solutions/python
 '''
-calculate valid_options for each square, put into grid or something
-find a combonation of these that have 0 overlap?
+works for the easier version of the kata
+fill in first 0 with a 1 -> check if valid:
+valid -> proceed to next 0, fill with 1 -> check if valid
+invalid -> try with 2 -> check if valid
+once 9 is invalid -> go back to last insertion and increase
+recurse until solved.
+
+this method needs to keep track of all inputs, so will need to preserve og board and get the difference of each, or just an array of indices of the 0's
+will need to check for duplicate values not 0 in the local grid, and the local rows -> total of 9 different grids
 '''
 import numpy as np
 grid_mask = np.array([[i//3+j//3*3 for i in range(9)] for j in range(9)])
@@ -47,25 +54,10 @@ def depth_first(board, board_positions, cell, open_cells, options):
 
 
 def solve(board):
-    board_numpy = np.array(board)
-    board_positions = [(j,i) for j in range(9) for i in range(9) if board[j][i] == 0]
-    options = np.array([valid_options(point, board_numpy) for point in board_positions])
-    for i,row in enumerate(board):
-        for j,col in enumerate(row):
-            if (i,j) in board_positions:
-                board[i][j] = list(options[board_positions.index((j,i))])
-            else:
-                board[i][j] = [col]
-    number_of_combinations = [[len(i) for i in row] for row in board]
-    number_of_combinations = np.prod([np.prod([len(i) for i in row]) for row in board], dtype='object')
-    i = 0
-    while i < number_of_combinations:
-        i += 1
     board = np.array(board)
-    print(board)
-    print(number_of_combinations)
-    return
-    # final_board = depth_first(board, board_positions, cell = 0, open_cells = len(board_positions), options = options)
+    board_positions = [(j,i) for j in range(9) for i in range(9) if board[j][i] == 0]
+    options = valid_options(board_positions[0], board)
+    final_board = depth_first(board, board_positions, cell = 0, open_cells = len(board_positions), options = options)
     return final_board.tolist()
 
 

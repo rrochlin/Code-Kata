@@ -1,8 +1,8 @@
 # https://www.codewars.com/kata/52bb6539a4cf1b12d90005b7/train/python
 
 '''
-There must be single battleship (size of 4 cells), 2 cruisers (size 3), 3 destroyers (size 2) and 
-4 submarines (size 1). Any additional ships are not allowed, as well as missing ships. Each ship 
+There must be single battleship (size of 4 cells), 2 cruisers (size 3), 3 destroyers (size 2) and
+4 submarines (size 1). Any additional ships are not allowed, as well as missing ships. Each ship
 must be a straight line, except for submarines, which are just single cell.
 
 plan:
@@ -15,7 +15,7 @@ when we hit a one, explore the matrix looking for the rest of it
     return from function with false if we find a violation
 
     valid configurations should only have points in one plane around the ship, or all 0's
-    
+
 
 
 VIOLATIONS:
@@ -82,7 +82,7 @@ def traverse(field: list, start: tuple, coordinates: list, ships: Ships):
         filter(lambda item: item is not None, surrounding_points))
     surrounding_values = [field[j][i] for (i, j) in surrounding_points]
     if sum(surrounding_values) > 1:
-        return False
+        raise Exception("ships touching")
     if sum(surrounding_values) == 1:
         next_point = surrounding_points[surrounding_values.index(1)]
         coordinates = traverse(field, next_point, coordinates, ships)
@@ -98,43 +98,18 @@ def validate_battlefield(field: list):
     except Exception as e:
         print(e)
         return False
-    print(vars(ships))
     return ships.confirm_no_more_ships()
 
 
-battleField = [[1, 0, 0, 0, 0, 1, 1, 0, 0, 0],
-               [1, 0, 1, 0, 0, 0, 0, 0, 1, 0],
-               [1, 0, 1, 0, 1, 1, 1, 0, 1, 0],
+battleField = [[0, 0, 0, 0, 0, 1, 1, 0, 0, 0],
+               [0, 1, 1, 1, 0, 0, 0, 0, 1, 1],
+               [1, 0, 0, 0, 1, 0, 0, 0, 0, 0],
                [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-               [0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
-               [0, 0, 0, 1, 1, 1, 1, 0, 0, 0],
-               [0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
-               [0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+               [1, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+               [0, 0, 1, 1, 1, 1, 0, 0, 0, 0],
+               [0, 0, 0, 0, 0, 0, 0, 1, 1, 0],
+               [0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
                [0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
-# print(validate_battlefield(battleField))
 
-battleField = [[1, 0, 0, 0, 0, 1, 1, 0, 0, 0],
-               [1, 0, 1, 0, 0, 0, 0, 0, 1, 0],
-               [1, 0, 1, 0, 1, 1, 1, 0, 1, 0],
-               [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-               [0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
-               [0, 0, 0, 0, 1, 1, 1, 0, 0, 0],
-               [0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
-               [0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
-               [0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
-               [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
-# print(validate_battlefield(battleField))
-
-battleField = [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-               [1, 0, 0, 0, 0, 0, 0, 1, 0, 1],
-               [1, 0, 0, 0, 0, 0, 0, 0, 0, 1],
-               [1, 0, 0, 0, 1, 1, 1, 1, 0, 0],
-               [0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
-               [0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
-               [0, 0, 0, 0, 0, 0, 1, 0, 0, 1],
-               [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-               [1, 0, 0, 1, 0, 0, 0, 0, 0, 0],
-               [1, 0, 0, 1, 0, 0, 0, 1, 0, 0]]
-
-print(validate_battlefield(battleField))
+assert validate_battlefield(battleField) is False
