@@ -27,43 +27,6 @@ int main(){
     return 24;
 }
 
-// interesting solutions
-std::string rot13(std::string msg)
-{
-  for(auto& x : msg) 
-    if (islower(x)) x = 'a'+(x-'a'+13)%26; 
-    else if(isupper(x)) x = 'A'+(x-'A'+13)%26;
-  return msg;
-}
-
-// the ... is correct
-std::string rot13(std::string msg) {
-  for (char& c : msg) {
-    switch (c) {
-      case 'A'...'M': case 'a'...'m': c += 13; break;
-      case 'N'...'Z': case 'n'...'z': c -= 13; break;
-    }
-  }
-  return msg;
-}
-
-
-#include <cctype>
-#include <string>
-#include <algorithm>
-
-std::string rot13(std::string msg)
-{
-  std::transform(begin(msg), end(msg), begin(msg), [] (char c) -> char
-  {
-    if (!std::isalpha(c)) return c;
-
-    char offset = std::isupper(c) ? 'A' : 'a';
-    return (c - offset + 13) % 26 + offset;
-  });
-  return msg;
-}
-
 
 
 

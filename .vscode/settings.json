@@ -45,7 +45,8 @@
         "chrono": "cpp",
         "algorithm": "cpp",
         "cctype": "cpp",
-        "ratio": "cpp"
+        "ratio": "cpp",
+        "numeric": "cpp"
     },
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true
