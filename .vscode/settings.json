@@ -46,7 +46,9 @@
         "algorithm": "cpp",
         "cctype": "cpp",
         "ratio": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "map": "cpp",
+        "xtree": "cpp"
     },
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true

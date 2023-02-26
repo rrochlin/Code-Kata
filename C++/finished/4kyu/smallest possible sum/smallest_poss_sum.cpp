@@ -1,9 +1,6 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <string>
-#include <sstream>
-#include <numeric>
 
 unsigned long long solution(const std::vector<unsigned long long>& arr){
     unsigned long long size = arr.size();
