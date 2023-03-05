@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <math.h>
+#include <cmath>
 // https://www.codewars.com/kata/56b2abae51646a143400001d/train/cpp
 
 unsigned long mystery(unsigned long n){
