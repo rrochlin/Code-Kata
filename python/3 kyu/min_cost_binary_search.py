@@ -1,7 +1,6 @@
 # https://www.codewars.com/kata/571a7c0cf24bdf99a8000df5/train/python
-from collections import deque
-from heapq import merge
-import copy
+import pandas as pd
+import numpy as np
 
 
 class Tree(object):
@@ -77,53 +76,32 @@ def cost(tree, depth=1):
     return result
 
 
-def insert_into_Tree(tree, node):
-    new_tree = copy.copy(tree)
-    if node > new_tree.root:
-        if not tree.right:
-            new_tree.right = Tree(node)
-        else:
-            new_tree.right = insert_into_Tree(new_tree.right, node)
-    elif node < new_tree.root:
-        if not new_tree.left:
-            new_tree.left = Tree(node)
-        else:
-            new_tree.left = insert_into_Tree(new_tree.left, node)
-    return new_tree
-
-
-def parse_queue(queue):
-    while (True):
-        _, tree, node_list, current_tree = queue.popleft()
-        if not node_list:
-            return tree
-        sub_queue = []
-        for node in node_list:
-            new_tree = insert_into_Tree(tree, node)
-            new_node_list = node_list.copy()
-            new_node_list.remove(node)
-            current_tree = str(new_tree)
-            sub_queue.append((cost(new_tree), new_tree, new_node_list, current_tree))
-        queue = deque(merge(queue, sorted(sub_queue)))
-
-
 def make_min_tree(node_list):
     '''
     node_list is a list of Node objects
     Pre-cond: len(node_list > 0) and node_list is sorted in ascending order
     Returns a minimal cost tree of all nodes in node_list.
     '''
-    queue = []
-    if len(node_list) == 1:
-        return Tree(node_list[0])
-    for node in node_list:
-        temp_Tree = Tree(node)
-        temp_node_list = node_list.copy()
-        temp_node_list.remove(node)
-        queue.append((cost(temp_Tree), temp_Tree,
-                     temp_node_list, str(temp_Tree)))
-    queue = deque(sorted(queue))
-    return parse_queue(queue)
+    length = len(node_list)+1
+    cost_table = pd.DataFrame(data=np.zeros((length, length), dtype=np.uint32), index=range(1, length+1))
+    node_table = pd.DataFrame(data=np.nan, index=range(1, length+1), columns=range(0, length))
+    for idx, node in enumerate(node_list):
+        cost_table.at[idx+1, idx+1] = node.weight
+        node_table.at[idx+1, idx+1] = node.value
+    for start in range(1, length-1):
+        for idx in range(1, length-start):
+            cost_list = []
+            for i in range(start+1):
+                val = cost_table.at[idx, idx+i-1] + cost_table.at[idx+i+1, idx+start]
+                cost_list.append((val, node_list[idx + i - 1].value))
+            min_cost, root = min(cost_list)
+            increased_cost = sum([node.weight for node in node_list[idx-1:idx+start]])
+            cost_table.at[idx, idx+start] = min_cost + increased_cost
+            node_table.at[idx, idx+start] = root
+
+    print(cost_table)  #.iloc[:10, :10])
+    print(node_table)  #.iloc[:10, :10])
+    # cost_table.at[row, column]
 
 
 a = Node('A', 10)
@@ -254,7 +232,6 @@ node_list = [
     Node("ZOY", 65301),
     Node("ZYP", 56786),
 ]
-from time import perf_counter
-start = perf_counter()
-print(make_min_tree(node_list[:5]))
-print(perf_counter()-start)
+
+print(make_min_tree(node_list))
+
